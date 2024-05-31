@@ -1,6 +1,10 @@
 Players:
   7d674591-43df-3582-a5ce-b6c080fc3a26: owner
   aaaf059a-d2a8-39d4-88a6-3e667fc200f3: builder
+  6a9be0f5-59d7-393c-9f76-e8cedcf93bdf: Guest
+  b27d4be7-b7b1-3f2a-a16b-9cfc1058edda: Guest
+  980dd1d6-eb15-3ebf-97cd-a462629ee803: Guest
+  da3c130e-32ed-3e3b-9ee1-1e40e6ba7b4a: Guest
 Ranks:
   Guest:
     name: Guest
@@ -19,4 +23,28 @@ Ranks:
     permissions: []
     prefix: '§6[§eBuilder§6] '
     suffix: '§f: '
+    default: false
+  DhyeyBG:
+    name: DhyeyBG
+    permissions: []
+    prefix: 'owner '
+    suffix: '[§eOWNER§1_§2OF§3_§4lapata§6_SMP§9] '
+    default: false
+  ButterDog1498_:
+    name: ButterDog1498_
+    permissions: []
+    prefix: 'lol '
+    suffix: '§1L§2O§3LMANGO '
+    default: false
+  bobpop:
+    name: bobpop
+    permissions: []
+    prefix: 'lol '
+    suffix: '§4TROLLER '
+    default: false
+  EB_for_jesus:
+    name: EB_for_jesus
+    permissions: []
+    prefix: 'admin '
+    suffix: '§3[ADMIN] '
     default: false

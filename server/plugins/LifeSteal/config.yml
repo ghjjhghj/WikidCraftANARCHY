@@ -1,6 +1,6 @@
 NoPermMsg: Sorry, you do not have this permissions!
-LifeStealRate: 5
-HungeStealRate: 5
+LifeStealRate: 20
+HungeStealRate: 20
 EnableLifeStealMsg: true
 EnableHungerSteal: true
 EnableHungerStealMsg: true

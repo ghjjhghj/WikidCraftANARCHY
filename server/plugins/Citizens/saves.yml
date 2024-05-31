@@ -1,0 +1,76 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 2
+npc:
+  '1':
+    name: §1One Block
+    uuid: 7ba39bbf-9020-488a-88e0-ae496f17e672
+    traits:
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      location:
+        bodyYaw: 20.663734
+        world: world
+        x: '-38.5026'
+        y: '61.8178'
+        z: '49.8088'
+        yaw: '20.6637'
+        pitch: '-0.1526'
+      scoreboardtrait: {}
+      type: PLAYER
+      spawned: true
+      inventory: {}
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+    traitnames: inventory,owner,type,mounttrait,spawned,location,equipment,scoreboardtrait,skintrait,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    name: §1One §3Block §6 [1.20.6] XD
+    uuid: 15195540-9aae-420e-b9a1-2263896720c3
+    traits:
+      inventory: {}
+      owner:
+        owner: DhyeyBG
+        uuid: 7d674591-43df-3582-a5ce-b6c080fc3a26
+      type: PLAYER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      spawned: true
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+      location:
+        bodyYaw: 269.52405
+        world: world
+        x: '-58.3'
+        y: '64.0'
+        z: '71.6389'
+        yaw: '269.524'
+        pitch: '19.1751'
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: inventory,owner,type,hologramtrait,mounttrait,spawned,commandtrait,location,equipment,scoreboardtrait,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
