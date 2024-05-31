@@ -36,3 +36,14 @@ DhyeyBG:
     x: -58.05764192455765
     y: 63.0
     z: 71.60075085464453
+jiujitsu:
+  lines:
+  - '&6[&eBuilder&6] Illuminate1551 &fhas a jiu-jitsu tournament on Saturday'
+  - June 1st, 2024, he has 3 people in both GI and No-GI bracket. Good Luck!
+  - '&6[&eBuilder&6] Illuminate1551 &fwont be on for all of saturday'
+  - To get rid of this type /hologram delete jiujitsu
+  position:
+    world: world
+    x: 526.3032719548498
+    y: 80.2
+    z: 86.26729862354595

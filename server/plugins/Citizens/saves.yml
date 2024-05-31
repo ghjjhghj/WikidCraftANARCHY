@@ -1,46 +1,7 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 2
+last-created-npc-id: 7
 npc:
-  '1':
-    name: §1One Block
-    uuid: 7ba39bbf-9020-488a-88e0-ae496f17e672
-    traits:
-      skintrait:
-        fetchDefaultSkin: true
-        updateSkins: false
-      location:
-        bodyYaw: 20.663734
-        world: world
-        x: '-38.5026'
-        y: '62.7725'
-        z: '49.8088'
-        yaw: '20.6637'
-        pitch: '-0.1526'
-      scoreboardtrait: {}
-      type: PLAYER
-      spawned: true
-      inventory: {}
-      lookclose:
-        range: '5.0'
-        enabled: true
-        enableRandomLook: false
-        randomLookDelay: 60
-        realisticlooking: false
-        randomPitchRange:
-          '0': -10.0
-          '1': 0.0
-        randomYawRange:
-          '0': 0.0
-          '1': 360.0
-      owner:
-        owner: illuminate1551
-        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
-    traitnames: scoreboardtrait,lookclose,owner,type,skintrait,spawned,mounttrait,location,equipment,inventory
-    navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: true
   '2':
     name: §1One §3Block §6 [1.20.6] XD
     uuid: 15195540-9aae-420e-b9a1-2263896720c3
@@ -69,7 +30,163 @@ npc:
       owner:
         owner: DhyeyBG
         uuid: 7d674591-43df-3582-a5ce-b6c080fc3a26
-    traitnames: hologramtrait,scoreboardtrait,owner,type,skintrait,spawned,mounttrait,location,equipment,inventory,commandtrait
+    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,hologramtrait,commandtrait,owner,mounttrait,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '7':
+    name: §1Server Info
+    uuid: b2d4c17f-1d64-42b6-8a37-560c7dcc23de
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -3.2366638
+        world: world
+        x: '515.5'
+        y: '80.0'
+        z: '56.5'
+        yaw: '-3.2367'
+        pitch: '-77.3499'
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      inventory: {}
+    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,owner,mounttrait,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: §1Survival
+    uuid: dfd2a131-4460-44ff-a8b2-8036b888e015
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: -134.93547
+        world: world
+        x: '496.5'
+        y: '80.0'
+        z: '75.5'
+        yaw: '-134.9355'
+        pitch: '10.7683'
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      inventory: {}
+    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,owner,mounttrait,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: §1Lifesteal
+    uuid: c728c2af-dc5f-4478-9e32-7d029cced4d2
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: 29.973381
+        world: world
+        x: '534.5'
+        y: '80.0'
+        z: '75.5'
+        yaw: '29.9734'
+        pitch: '-49.6495'
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      inventory: {}
+    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,owner,mounttrait,lookclose,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: §1One Block
+    uuid: f7968ace-b66e-44ff-b2c2-5a474bd685e8
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: 128.77026
+        world: world
+        x: '515.5'
+        y: '80.0'
+        z: '94.5'
+        yaw: '128.7703'
+        pitch: '-3.5481'
+      scoreboardtrait: {}
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+      spawned: true
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+        realisticlooking: false
+      inventory: {}
+    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,owner,mounttrait,lookclose,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
