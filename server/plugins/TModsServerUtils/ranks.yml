@@ -1,0 +1,8 @@
+Players: {}
+Ranks:
+  Guest:
+    name: Guest
+    permissions: []
+    prefix: '[Guest] '
+    suffix: ': '
+    default: true

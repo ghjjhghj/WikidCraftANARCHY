@@ -1,0 +1,8 @@
+NoPermMsg: Sorry, you do not have this permissions!
+LifeStealRate: 5
+HungeStealRate: 5
+EnableLifeStealMsg: true
+EnableHungerSteal: true
+EnableHungerStealMsg: true
+EnableHungerStealOnPvp: true
+EnableLifeStealOnPvp: true
