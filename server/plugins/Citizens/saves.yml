@@ -13,7 +13,7 @@ npc:
         bodyYaw: 20.663734
         world: world
         x: '-38.5026'
-        y: '61.8178'
+        y: '62.7725'
         z: '49.8088'
         yaw: '20.6637'
         pitch: '-0.1526'
@@ -36,7 +36,7 @@ npc:
       owner:
         owner: illuminate1551
         uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
-    traitnames: inventory,owner,type,mounttrait,spawned,location,equipment,scoreboardtrait,skintrait,lookclose
+    traitnames: scoreboardtrait,lookclose,owner,type,skintrait,spawned,mounttrait,location,equipment,inventory
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -46,9 +46,6 @@ npc:
     uuid: 15195540-9aae-420e-b9a1-2263896720c3
     traits:
       inventory: {}
-      owner:
-        owner: DhyeyBG
-        uuid: 7d674591-43df-3582-a5ce-b6c080fc3a26
       type: PLAYER
       hologramtrait:
         direction: BOTTOM_UP
@@ -69,7 +66,10 @@ npc:
       skintrait:
         fetchDefaultSkin: true
         updateSkins: false
-    traitnames: inventory,owner,type,hologramtrait,mounttrait,spawned,commandtrait,location,equipment,scoreboardtrait,skintrait
+      owner:
+        owner: DhyeyBG
+        uuid: 7d674591-43df-3582-a5ce-b6c080fc3a26
+    traitnames: hologramtrait,scoreboardtrait,owner,type,skintrait,spawned,mounttrait,location,equipment,inventory,commandtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
