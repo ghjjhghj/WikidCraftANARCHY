@@ -1,0 +1,32 @@
+##########################################
+#                                        #
+#          Custom Join Messages          #
+#              by Insprill               #
+#                                        #
+##########################################
+#
+AutomaticallyReloadAfterChange: true
+date-format: MM/dd/yyyy
+#
+# First Join
+EnablePrivateFirstJoinMessage: true
+EnableFirstJoinMessage: true
+RadiusFirstJoinMessages:
+  Enabled: false
+  # Only use whole numbers!!!
+  Range: 100
+#
+# Join
+EnablePrivateJoinMessage: true
+EnableJoinMessage: true
+RadiusJoinMessages:
+  Enabled: false
+  # Only use whole numbers!!!
+  Range: 100
+#
+# Quit
+EnableQuitMessage: true
+RadiusQuitMessages:
+  Enabled: false
+  # Only use whole numbers!!!
+  Range: 100

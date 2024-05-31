@@ -30,7 +30,7 @@ npc:
       owner:
         owner: DhyeyBG
         uuid: 7d674591-43df-3582-a5ce-b6c080fc3a26
-    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,hologramtrait,commandtrait,owner,mounttrait,inventory
+    traitnames: location,inventory,spawned,scoreboardtrait,type,commandtrait,hologramtrait,owner,skintrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -53,23 +53,23 @@ npc:
         fetchDefaultSkin: true
         updateSkins: false
       spawned: true
-      owner:
-        owner: illuminate1551
-        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
       lookclose:
         range: '5.0'
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
+        realisticlooking: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
       inventory: {}
-    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,owner,mounttrait,lookclose,inventory
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+    traitnames: location,inventory,scoreboardtrait,spawned,type,lookclose,owner,skintrait,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -92,23 +92,23 @@ npc:
         fetchDefaultSkin: true
         updateSkins: false
       spawned: true
-      owner:
-        owner: illuminate1551
-        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
       lookclose:
         range: '5.0'
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
+        realisticlooking: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
       inventory: {}
-    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,owner,mounttrait,lookclose,inventory
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+    traitnames: inventory,location,scoreboardtrait,spawned,type,lookclose,skintrait,owner,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -131,23 +131,23 @@ npc:
         fetchDefaultSkin: true
         updateSkins: false
       spawned: true
-      owner:
-        owner: illuminate1551
-        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
       lookclose:
         range: '5.0'
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
+        realisticlooking: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
       inventory: {}
-    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,owner,mounttrait,lookclose,inventory
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+    traitnames: inventory,location,scoreboardtrait,spawned,type,lookclose,skintrait,owner,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -170,23 +170,23 @@ npc:
         fetchDefaultSkin: true
         updateSkins: false
       spawned: true
-      owner:
-        owner: illuminate1551
-        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
       lookclose:
         range: '5.0'
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
+        realisticlooking: false
         randomPitchRange:
           '0': -10.0
           '1': 0.0
         randomYawRange:
           '0': 0.0
           '1': 360.0
-        realisticlooking: false
       inventory: {}
-    traitnames: type,location,scoreboardtrait,skintrait,equipment,spawned,owner,mounttrait,lookclose,inventory
+      owner:
+        owner: illuminate1551
+        uuid: aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+    traitnames: inventory,location,scoreboardtrait,spawned,type,lookclose,skintrait,owner,mounttrait,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

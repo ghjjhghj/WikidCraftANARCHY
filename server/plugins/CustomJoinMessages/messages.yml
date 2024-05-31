@@ -1,0 +1,23 @@
+# Default Placeholderss
+#
+# %displayname% -> Players Display Name
+# %name% -> Players Name
+# %prefix% -> Players Prefix
+# %suffix% -> Players Suffix
+# %joinamount% -> The amount of players who have joined
+#
+# First Join
+PrivateFirstJoinMessage: 
+  - '&7Welcome to our server, %name%! &8(&a#%joinamount%&8)'
+FirstJoinMessage: 
+  - '&a%name% &7has joined the server for the first time!'
+#
+# Join
+PrivateJoinMessage: 
+  - '&7Welcome back, %name%&7!'
+JoinMessage: 
+  - '&a%name% &7has joined!'
+#
+# Quit
+QuitMessage: 
+  - '&a%name% &7has left!'
