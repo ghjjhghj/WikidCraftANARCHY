@@ -1,4 +1,6 @@
-Players: {}
+Players:
+  7d674591-43df-3582-a5ce-b6c080fc3a26: Guest
+  aaaf059a-d2a8-39d4-88a6-3e667fc200f3: Guest
 Ranks:
   Guest:
     name: Guest

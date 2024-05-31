@@ -288,3 +288,28 @@ org.bukkit.plugin.UnknownDependencyException: ViaVersion
 
 [18:28:35] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
+[18:28:55] [Thread-8/INFO]: UUID of player DhyeyBG is 7d674591-43df-3582-a5ce-b6c080fc3a26
+[18:28:56] [Server thread/INFO]: DhyeyBG[/[0:0:0:0:0:0:0:1]:41026] logged in with entity id 133 at ([world]-22.94023019809662, 66.0, 60.14445879120506)
+[18:29:12] [Thread-9/INFO]: UUID of player illuminate1551 is aaaf059a-d2a8-39d4-88a6-3e667fc200f3
+[18:29:12] [Server thread/INFO]: illuminate1551[/[0:0:0:0:0:0:0:1]:59672] logged in with entity id 157 at ([world]-39.81323388975985, 69.0, 67.09690335713512)
+[18:29:17] [Server thread/INFO]: DhyeyBG issued server command: /plugins
+[18:29:24] [Async Chat Thread - #0/INFO]: [Guest] DhyeyBG: yes THX U SOOO MUCH[m
+
+[18:29:25] [Async Chat Thread - #0/INFO]: [Guest] DhyeyBG: yes THX U SOOO MUCH[m
+
+[18:29:25] [Async Chat Thread - #0/INFO]: [Guest] DhyeyBG: yes THX U SOOO MUCH[m
+
+[18:29:30] [Async Chat Thread - #0/INFO]: [Guest] illuminate1551: i didnt finish it its gonna restart one more time[m
+
+[18:29:33] [Server thread/INFO]: illuminate1551 issued server command: /plugins
+[18:29:40] [Server thread/INFO]: DhyeyBG issued server command: /lifesteal:ls
+[18:29:42] [Async Chat Thread - #0/INFO]: [Guest] illuminate1551: ready?[m
+
+[18:29:45] [Async Chat Thread - #0/INFO]: [Guest] DhyeyBG: ye[m
+
+[18:29:47] [Async Chat Thread - #0/INFO]: [Guest] DhyeyBG: yes[m
+
+[18:29:48] [Server thread/INFO]: illuminate1551 issued server command: /restart
+[18:29:48] [Server thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+
+[18:29:48] [Thread-2/INFO]: Stopping server
