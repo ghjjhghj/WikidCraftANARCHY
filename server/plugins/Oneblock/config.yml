@@ -4,9 +4,9 @@
 #Specify the World Name.
 world: world
 #The Cordinates where the postion of your First OneBlock is set.
-x: 0.0
-y: 0.0
-z: 0.0
+x: -39.0
+y: 66.0
+z: 40.0
 #This is the place where a player gets tp-ed when they execute /ob leave
 leaveworld: world
 #Specify the Lobby World
@@ -48,6 +48,6 @@ max_players_team: 0
 #Keep player inventory after id reset?
 saveplayerinventory: false
 useemptyislands: true
-autojoin: false
+autojoin: true
 gui: true
 WGflags: []

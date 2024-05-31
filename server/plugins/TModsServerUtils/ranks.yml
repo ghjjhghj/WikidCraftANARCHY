@@ -1,6 +1,6 @@
 Players:
-  7d674591-43df-3582-a5ce-b6c080fc3a26: Guest
-  aaaf059a-d2a8-39d4-88a6-3e667fc200f3: Guest
+  7d674591-43df-3582-a5ce-b6c080fc3a26: owner
+  aaaf059a-d2a8-39d4-88a6-3e667fc200f3: builder
 Ranks:
   Guest:
     name: Guest
@@ -8,3 +8,15 @@ Ranks:
     prefix: '[Guest] '
     suffix: ': '
     default: true
+  owner:
+    name: owner
+    permissions: []
+    prefix: '§1[OWNER_OF_LAPATA_SMP] '
+    suffix: '§f: '
+    default: false
+  builder:
+    name: builder
+    permissions: []
+    prefix: '§6[§eBuilder§6] '
+    suffix: '§f: '
+    default: false
