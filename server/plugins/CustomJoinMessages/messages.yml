@@ -8,16 +8,16 @@
 #
 # First Join
 PrivateFirstJoinMessage: 
-  - '&7Welcome to our server, %name%! &8(&a#%joinamount%&8)'
+  - '&6Welcome to &1FapataSMP, $6%name%!, there are &c(&a#%joinamount%&8)&6 online'
 FirstJoinMessage: 
-  - '&a%name% &7has joined the server for the first time!'
+  - '&c%name% &6has joined the server for the first time!'
 #
 # Join
 PrivateJoinMessage: 
-  - '&7Welcome back, %name%&7!'
+  - '&6Welcome back, &c%name%&6!'
 JoinMessage: 
-  - '&a%name% &7has joined!'
+  - '&6[&a+&6] %name% &6has joined!'
 #
 # Quit
 QuitMessage: 
-  - '&a%name% &7has left!'
+  - '&6[&c-&6] &c%name% &6has left!'

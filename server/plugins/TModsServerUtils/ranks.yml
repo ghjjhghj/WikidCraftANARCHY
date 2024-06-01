@@ -5,6 +5,7 @@ Players:
   b27d4be7-b7b1-3f2a-a16b-9cfc1058edda: Guest
   980dd1d6-eb15-3ebf-97cd-a462629ee803: Guest
   da3c130e-32ed-3e3b-9ee1-1e40e6ba7b4a: Guest
+  21753ba7-030e-32ae-9b94-6f8b9c83b235: Guest
 Ranks:
   Guest:
     name: Guest
@@ -47,4 +48,16 @@ Ranks:
     permissions: []
     prefix: 'admin '
     suffix: '§3[ADMIN] '
+    default: false
+  helper:
+    name: helper
+    permissions: []
+    prefix: 'Alex_lol '
+    suffix: '§3[HELPER] '
+    default: false
+  helper:
+    name: 'Alex_lol'
+    permissions: []
+    prefix: '&4[HELPER] '
+    suffix: '§f: '
     default: false

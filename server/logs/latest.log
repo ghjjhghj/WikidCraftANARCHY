@@ -1,371 +1,1190 @@
-[22:39:04] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[22:39:04] [Server thread/INFO]: Loading properties
-[22:39:04] [Server thread/INFO]: Default game type: SURVIVAL
-[22:39:04] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[22:39:04] [Server thread/INFO]: Debug logging is disabled
-[22:39:04] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[22:39:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:43:42] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[15:43:42] [Server thread/INFO]: Loading properties
+[15:43:42] [Server thread/INFO]: Default game type: SURVIVAL
+[15:43:42] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[15:43:42] [Server thread/INFO]: Debug logging is disabled
+[15:43:42] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[15:43:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[22:39:04] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:39:04] [Server thread/INFO]: Data value allowed items: 
-[22:39:04] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[15:43:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:43:42] [Server thread/INFO]: Data value allowed items: 
+[15:43:42] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[22:39:04] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[15:43:42] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[22:39:04] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[15:43:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[22:39:04] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[15:43:42] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[22:39:04] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[15:43:42] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[22:39:04] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[15:43:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[22:39:04] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[15:43:42] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[22:39:04] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[15:43:42] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[22:39:04] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[15:43:42] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[22:39:04] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:43:42] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[22:39:04] [Server thread/INFO]: Generating keypair
-[22:39:05] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[22:39:05] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[22:39:05] [Server thread/INFO]: Using default channel type
-[22:39:05] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
-[22:39:05] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller-1.1.5 (1).jar' and `plugins/EaglerPluginInstaller.jar' in `plugins'
-[22:39:05] [Server thread/ERROR]: Could not load 'plugins/ViaRewind-4.0.0-SNAPSHOT.jar' in folder 'plugins'
+[15:43:42] [Server thread/INFO]: Generating keypair
+[15:43:42] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[15:43:42] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[15:43:42] [Server thread/INFO]: Using default channel type
+[15:43:43] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller.jar' and `plugins/EaglerPluginInstaller-1.1.5.jar' in `plugins'
+[15:43:43] [Server thread/ERROR]: Ambiguous plugin name `EaglerPluginInstaller' for files `plugins/EaglerPluginInstaller-1.1.5 (1).jar' and `plugins/EaglerPluginInstaller.jar' in `plugins'
+[15:43:43] [Server thread/ERROR]: Could not load 'plugins/ViaRewind-4.0.0-SNAPSHOT.jar' in folder 'plugins'
 org.bukkit.plugin.UnknownDependencyException: ViaVersion
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[22:39:05] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[22:39:05] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[22:39:05] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
-[22:39:05] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.27-SNAPSHOT (build 2205)
-[22:39:05] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[22:39:05] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.0.7
-[22:39:05] [Server thread/INFO]: [CleanPing] Loading CleanPing v1.5.2
-[22:39:05] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[22:39:05] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.3.1
-[22:39:05] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[22:39:05] [Server thread/INFO]: [CustomJoinMessages] Loading CustomJoinMessages v13.3.2
-[22:39:05] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
-[22:39:05] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
-[22:39:05] [Server thread/INFO]: [LifeSteal] Loading LifeSteal v0.6
-[22:39:05] [Server thread/INFO]: [Oneblock] Loading Oneblock v1.1.6f
-[22:39:05] [Server thread/INFO]: [TModsServerAddons_Ranks] Loading TModsServerAddons_Ranks v1.14
-[22:39:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:39:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:39:05] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[22:39:05] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[22:39:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:39:05] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[22:39:05] [Server thread/INFO]: Preparing level "world"
-[22:39:05] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:39:05] [Server thread/INFO]: Mob Spawn Range: 4
-[22:39:05] [Server thread/INFO]: Anti X-Ray: true
-[22:39:05] [Server thread/INFO]: 	Engine Mode: 1
-[22:39:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:39:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:39:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:39:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:39:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:39:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:39:05] [Server thread/INFO]: Random Lighting Updates: false
-[22:39:05] [Server thread/INFO]: Structure Info Saving: true
-[22:39:05] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:39:05] [Server thread/INFO]: Max Entity Collisions: 8
-[22:39:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:39:05] [Server thread/INFO]: Max TNT Explosions: 100
-[22:39:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:39:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:39:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:39:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:39:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:39:05] [Server thread/INFO]: View Distance: 4
-[22:39:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:39:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:39:05] [Server thread/INFO]: Clear tick list: false
-[22:39:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:39:05] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:39:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:39:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:39:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:39:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:39:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:39:05] [Server thread/INFO]: Water over lava flow speed: 5
-[22:39:05] [Server thread/INFO]: Fix TNT cannons: false
-[22:39:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:39:05] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:39:05] [Server thread/INFO]: World async lighting: false
-[22:39:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:39:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:39:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:39:05] [Server thread/INFO]: Mob Spawn Range: 4
-[22:39:05] [Server thread/INFO]: Anti X-Ray: true
-[22:39:05] [Server thread/INFO]: 	Engine Mode: 1
-[22:39:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:39:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:39:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:39:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:39:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:39:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:39:05] [Server thread/INFO]: Random Lighting Updates: false
-[22:39:05] [Server thread/INFO]: Structure Info Saving: true
-[22:39:05] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:39:05] [Server thread/INFO]: Max Entity Collisions: 8
-[22:39:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:39:05] [Server thread/INFO]: Max TNT Explosions: 100
-[22:39:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:39:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:39:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:39:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:39:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:39:05] [Server thread/INFO]: View Distance: 4
-[22:39:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:39:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:39:05] [Server thread/INFO]: Clear tick list: false
-[22:39:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:39:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:39:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:39:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:39:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:39:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:39:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:39:05] [Server thread/INFO]: Water over lava flow speed: 5
-[22:39:05] [Server thread/INFO]: Fix TNT cannons: false
-[22:39:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:39:05] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:39:05] [Server thread/INFO]: World async lighting: false
-[22:39:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:39:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:39:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:39:05] [Server thread/INFO]: Mob Spawn Range: 4
-[22:39:05] [Server thread/INFO]: Anti X-Ray: true
-[22:39:05] [Server thread/INFO]: 	Engine Mode: 1
-[22:39:05] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[22:39:05] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[22:39:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:39:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:39:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[22:39:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:39:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[22:39:05] [Server thread/INFO]: Random Lighting Updates: false
-[22:39:05] [Server thread/INFO]: Structure Info Saving: true
-[22:39:05] [Server thread/INFO]: Sending up to 10 chunks per packet
-[22:39:05] [Server thread/INFO]: Max Entity Collisions: 8
-[22:39:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[22:39:05] [Server thread/INFO]: Max TNT Explosions: 100
-[22:39:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:39:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:39:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:39:05] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[22:39:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:39:05] [Server thread/INFO]: View Distance: 4
-[22:39:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:39:05] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[22:39:05] [Server thread/INFO]: Clear tick list: false
-[22:39:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:39:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:39:05] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[22:39:05] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[22:39:05] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[22:39:05] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[22:39:05] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[22:39:05] [Server thread/INFO]: Water over lava flow speed: 5
-[22:39:05] [Server thread/INFO]: Fix TNT cannons: false
-[22:39:05] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[22:39:05] [Server thread/INFO]: Keep spawn chunk loaded: true
-[22:39:05] [Server thread/INFO]: World async lighting: false
-[22:39:05] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[22:39:05] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[22:39:05] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4712130764457860158)
-[22:39:06] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4712130764457860158)
-[22:39:07] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4712130764457860158)
-[22:39:07] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[22:39:07] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[15:43:43] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:43:43] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[15:43:43] [Server thread/INFO]: [[EaglerPluginInstaller]] Loading EaglerPluginInstaller v1.1.4
+[15:43:43] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.27-SNAPSHOT (build 2205)
+[15:43:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[15:43:43] [Server thread/INFO]: [AdminFun] Loading AdminFun v2.0.7
+[15:43:43] [Server thread/INFO]: [CleanPing] Loading CleanPing v1.5.2
+[15:43:43] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[15:43:43] [Server thread/INFO]: [ClearLag] Loading ClearLag v2.3.1
+[15:43:43] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.93
+[15:43:43] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[15:43:43] [Server thread/INFO]: [CustomJoinMessages] Loading CustomJoinMessages v13.3.2
+[15:43:43] [Server thread/INFO]: [[EaglerPluginUpdater]] Loading EaglerPluginUpdater v1.1.2
+[15:43:43] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.4
+[15:43:43] [Server thread/INFO]: [LifeSteal] Loading LifeSteal v0.6
+[15:43:43] [Server thread/INFO]: [Oneblock] Loading Oneblock v1.1.6f
+[15:43:43] [Server thread/INFO]: [TModsServerAddons_Ranks] Loading TModsServerAddons_Ranks v1.14
+[15:43:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:43:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:43:43] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:43:43] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:43:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:43:43] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:43:43] [Server thread/INFO]: Preparing level "world"
+[15:43:43] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:43:43] [Server thread/INFO]: Mob Spawn Range: 4
+[15:43:43] [Server thread/INFO]: Anti X-Ray: true
+[15:43:43] [Server thread/INFO]: 	Engine Mode: 1
+[15:43:43] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:43:43] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:43:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:43:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:43:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:43:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:43:43] [Server thread/INFO]: Random Lighting Updates: false
+[15:43:43] [Server thread/INFO]: Structure Info Saving: true
+[15:43:43] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:43:43] [Server thread/INFO]: Max Entity Collisions: 8
+[15:43:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:43:43] [Server thread/INFO]: Max TNT Explosions: 100
+[15:43:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:43:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:43:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:43:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:43:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:43:43] [Server thread/INFO]: View Distance: 4
+[15:43:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:43:43] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:43:43] [Server thread/INFO]: Clear tick list: false
+[15:43:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:43:43] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:43:43] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:43:43] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:43:43] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:43:43] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:43:43] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:43:43] [Server thread/INFO]: Water over lava flow speed: 5
+[15:43:43] [Server thread/INFO]: Fix TNT cannons: false
+[15:43:43] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:43:43] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:43:43] [Server thread/INFO]: World async lighting: false
+[15:43:43] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:43:43] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:43:43] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:43:43] [Server thread/INFO]: Mob Spawn Range: 4
+[15:43:43] [Server thread/INFO]: Anti X-Ray: true
+[15:43:43] [Server thread/INFO]: 	Engine Mode: 1
+[15:43:43] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:43:43] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:43:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:43:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:43:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:43:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:43:43] [Server thread/INFO]: Random Lighting Updates: false
+[15:43:43] [Server thread/INFO]: Structure Info Saving: true
+[15:43:43] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:43:43] [Server thread/INFO]: Max Entity Collisions: 8
+[15:43:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:43:43] [Server thread/INFO]: Max TNT Explosions: 100
+[15:43:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:43:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:43:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:43:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:43:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:43:43] [Server thread/INFO]: View Distance: 4
+[15:43:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:43:43] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:43:43] [Server thread/INFO]: Clear tick list: false
+[15:43:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:43:43] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:43:43] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:43:43] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:43:43] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:43:43] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:43:43] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:43:43] [Server thread/INFO]: Water over lava flow speed: 5
+[15:43:43] [Server thread/INFO]: Fix TNT cannons: false
+[15:43:43] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:43:43] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:43:43] [Server thread/INFO]: World async lighting: false
+[15:43:43] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:43:43] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:43:43] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:43:43] [Server thread/INFO]: Mob Spawn Range: 4
+[15:43:43] [Server thread/INFO]: Anti X-Ray: true
+[15:43:43] [Server thread/INFO]: 	Engine Mode: 1
+[15:43:43] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:43:43] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:43:43] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:43:43] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:43:43] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:43:43] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:43:43] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:43:43] [Server thread/INFO]: Random Lighting Updates: false
+[15:43:43] [Server thread/INFO]: Structure Info Saving: true
+[15:43:43] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:43:43] [Server thread/INFO]: Max Entity Collisions: 8
+[15:43:43] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:43:43] [Server thread/INFO]: Max TNT Explosions: 100
+[15:43:43] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:43:43] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:43:43] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:43:43] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:43:43] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:43:43] [Server thread/INFO]: View Distance: 4
+[15:43:43] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:43:43] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:43:43] [Server thread/INFO]: Clear tick list: false
+[15:43:43] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:43:43] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:43:43] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:43:43] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:43:43] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:43:43] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:43:43] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:43:43] [Server thread/INFO]: Water over lava flow speed: 5
+[15:43:43] [Server thread/INFO]: Fix TNT cannons: false
+[15:43:43] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:43:43] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:43:43] [Server thread/INFO]: World async lighting: false
+[15:43:43] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:43:43] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:43:43] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4712130764457860158)
+[15:43:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4712130764457860158)
+[15:43:45] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4712130764457860158)
+[15:43:45] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[15:43:45] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[22:39:07] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[15:43:45] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[22:39:07] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[22:39:07] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[22:39:07] [Server thread/INFO]: Check 1 passed
+[15:43:45] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[15:43:45] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[15:43:45] [Server thread/INFO]: Check 1 passed
 
-[22:39:07] [Server thread/INFO]: Check 3 passed
+[15:43:45] [Server thread/INFO]: Check 3 passed
 
-[22:39:07] [Server thread/INFO]: --------------------------------------------[m
+[15:43:45] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:07] [Server thread/INFO]: --------------------------------------------[m
+[15:43:45] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:07] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+[15:43:45] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
 
-[22:39:07] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+[15:43:45] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
 
-[22:39:07] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+[15:43:45] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
 
-[22:39:07] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+[15:43:45] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
 
-[22:39:07] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+[15:43:45] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
 
-[22:39:07] [Server thread/INFO]: --------------------------------------------[m
+[15:43:45] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:07] [Server thread/INFO]: --------------------------------------------[m
+[15:43:45] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:07] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.27-SNAPSHOT (build 2205)
-[22:39:07] [Server thread/INFO]: [Citizens] Vault not found -> no economy handling.
-[22:39:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[22:39:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[22:39:08] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[22:39:08] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.0.7
-[22:39:08] [Server thread/INFO]: AdminFun v2.0.7 is now enabled.
-[22:39:08] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.5.2
-[22:39:08] [Server thread/INFO]: [CleanPing] 
+[15:43:45] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.27-SNAPSHOT (build 2205)
+[15:43:46] [Server thread/INFO]: [Citizens] Vault not found -> no economy handling.
+[15:43:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[15:43:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:43:46] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[15:43:46] [Server thread/INFO]: [AdminFun] Enabling AdminFun v2.0.7
+[15:43:46] [Server thread/INFO]: AdminFun v2.0.7 is now enabled.
+[15:43:46] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.5.2
+[15:43:46] [Server thread/INFO]: [CleanPing] 
    ___ _                 ___ _           
   / __| |___ __ _ _ _   | _ (_)_ _  __ _ 
  | (__| / -_) _` | ' \  |  _/ | ' \/ _` |
   \___|_\___\__,_|_||_| |_| |_|_||_\__, |
                                    |___/ 
 
-[22:39:08] [Server thread/INFO]: [CleanPing] Server version: 1.8.8-R0.1-SNAPSHOT
-[22:39:08] [Server thread/INFO]: [CleanPing] Loading configuration...
-[22:39:08] [Server thread/INFO]: [CleanPing] Loading commands for legacy versions...
-[22:39:08] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
-[22:39:08] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
-[22:39:08] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[22:39:08] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[22:39:08] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[22:39:08] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[22:39:08] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[22:39:08] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.3.1
-[22:39:08] [Server thread/INFO]: [ClearLag] Checking for a new update...
-[22:39:08] [Thread-7/WARN]: [ClearLag] Could not reach dev.bukkit.org for update checking. Is it offline?
-[22:39:08] [Server thread/INFO]: [ClearLag] Update found! Downloading...
-[22:39:08] [Server thread/INFO]: [ClearLag] New clearlag will be enabled on restart!
-[22:39:08] [Server thread/INFO]: [ClearLag] ClearLag is now enabled.
-[22:39:08] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[22:39:08] [Server thread/INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v13.3.2
-[22:39:08] [Server thread/INFO]: [0;36;22m _____    _______   _________ [m
+[15:43:46] [Server thread/INFO]: [CleanPing] Server version: 1.8.8-R0.1-SNAPSHOT
+[15:43:46] [Server thread/INFO]: [CleanPing] Loading configuration...
+[15:43:46] [Server thread/INFO]: [CleanPing] Loading commands for legacy versions...
+[15:43:46] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
+[15:43:46] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
+[15:43:46] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[15:43:46] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[15:43:46] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[15:43:46] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[15:43:46] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[15:43:46] [Server thread/INFO]: [ClearLag] Enabling ClearLag v2.3.1
+[15:43:46] [Server thread/INFO]: [ClearLag] Checking for a new update...
+[15:43:46] [Thread-7/WARN]: [ClearLag] Could not reach dev.bukkit.org for update checking. Is it offline?
+[15:43:46] [Server thread/INFO]: [ClearLag] Update found! Downloading...
+[15:43:46] [Server thread/INFO]: [ClearLag] New clearlag will be enabled on restart!
+[15:43:46] [Server thread/INFO]: [ClearLag] ClearLag is now enabled.
+[15:43:46] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.93
+[15:43:46] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+[15:43:46] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[15:43:46] [Server thread/INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v13.3.2
+[15:43:46] [Server thread/INFO]: [0;36;22m _____    _______   _________ [m
 
-[22:39:08] [Server thread/INFO]: [0;36;22m|  ___|  |_______| |  _   _  |[m
+[15:43:46] [Server thread/INFO]: [0;36;22m|  ___|  |_______| |  _   _  |[m
 
-[22:39:08] [Server thread/INFO]: [0;36;22m| |         | |    | | | | | |[m
+[15:43:46] [Server thread/INFO]: [0;36;22m| |         | |    | | | | | |[m
 
-[22:39:08] [Server thread/INFO]: [0;36;22m| |         | |    | | | | | |[m
+[15:43:46] [Server thread/INFO]: [0;36;22m| |         | |    | | | | | |[m
 
-[22:39:08] [Server thread/INFO]: [0;36;22m| |___    __| |    | | |_| | |[m
+[15:43:46] [Server thread/INFO]: [0;36;22m| |___    __| |    | | |_| | |[m
 
-[22:39:08] [Server thread/INFO]: [0;36;22m|_____|  |____|    |_|     |_|[m
+[15:43:46] [Server thread/INFO]: [0;36;22m|_____|  |____|    |_|     |_|[m
 
-[22:39:08] [Server thread/INFO]: [0;36;22mby Insprill[m
+[15:43:46] [Server thread/INFO]: [0;36;22mby Insprill[m
 
-[22:39:08] [Server thread/INFO]: §cPlaceHolderAPI not found.
-[22:39:08] [Server thread/INFO]: §cVault not found.
-[22:39:08] [Server thread/INFO]: [0;36;22mCustom Join Messages has successfuly started! [0;33;1mTotal time taken: [0;33;22m16 [0;33;1mms[m
+[15:43:46] [Server thread/INFO]: §cPlaceHolderAPI not found.
+[15:43:46] [Server thread/INFO]: §cVault not found.
+[15:43:46] [Server thread/INFO]: [0;36;22mCustom Join Messages has successfuly started! [0;33;1mTotal time taken: [0;33;22m27 [0;33;1mms[m
 
-[22:39:09] [Server thread/INFO]: [CustomJoinMessages] §e==================================================
-[22:39:09] [Server thread/INFO]: [CustomJoinMessages] §aCJM §217.5.0§a is available! Your version: §213.3.2
-[22:39:09] [Server thread/INFO]: [CustomJoinMessages] §aDownload the latest version here:
-[22:39:09] [Server thread/INFO]: [CustomJoinMessages] §2https://www.spigotmc.org/resources/71608/
-[22:39:09] [Server thread/INFO]: [CustomJoinMessages] §e==================================================
-[22:39:09] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
-[22:39:09] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: [CustomJoinMessages] §e==================================================
+[15:43:47] [Server thread/INFO]: [CustomJoinMessages] §aCJM §217.5.0§a is available! Your version: §213.3.2
+[15:43:47] [Server thread/INFO]: [CustomJoinMessages] §aDownload the latest version here:
+[15:43:47] [Server thread/INFO]: [CustomJoinMessages] §2https://www.spigotmc.org/resources/71608/
+[15:43:47] [Server thread/INFO]: [CustomJoinMessages] §e==================================================
+[15:43:47] [Server thread/INFO]: [[EaglerPluginUpdater]] Enabling EaglerPluginUpdater v1.1.2
+[15:43:47] [Server thread/INFO]: [[EaglerPluginInstaller]] Disabling EaglerPluginInstaller v1.1.4
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
+[15:43:47] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m PluginInstaller V1.1.5 is now Disabled! D:[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
-[22:39:09] [Server thread/INFO]: Check 1 passed
+[15:43:47] [Server thread/INFO]: [[EaglerPluginInstaller]] Enabling EaglerPluginInstaller v1.1.4
+[15:43:47] [Server thread/INFO]: Check 1 passed
 
-[22:39:09] [Server thread/INFO]: Check 3 passed
+[15:43:47] [Server thread/INFO]: Check 3 passed
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
+[15:43:47] [Server thread/INFO]: [0;32;1m[EaglerPluginInstaller][0;36;1m EaglerPluginInstaller V1.1.5 is now Enabled! :D[m
 
-[22:39:09] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
+[15:43:47] [Server thread/INFO]: To use PluginInstaller, run the command "/install <pluginname>" ("install <pluginname>" in console) to install a plugin[m
 
-[22:39:09] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
+[15:43:47] [Server thread/INFO]: To get a list of installable plugins, use the command "/plist" or "plist" in console[m
 
-[22:39:09] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
+[15:43:47] [Server thread/INFO]: You can request to add a new plugin to the database by going to https://github.com/darverdevs/PluginInstallerRepo/tree/main[m
 
-[22:39:09] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
+[15:43:47] [Server thread/INFO]: and creating an issue or pull request of the plugin you want to add[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
+[15:43:47] [Server thread/INFO]: [0;32;1m[EaglerPluginUpdater][0;36;1m EaglerPluginUpdater V1.1.2 is now Enabled! :D[m
 
-[22:39:09] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
+[15:43:47] [Server thread/INFO]: You do not need to do anything, this plugin will automatically update your PluginUpdater on startup[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: --------------------------------------------[m
+[15:43:47] [Server thread/INFO]: --------------------------------------------[m
 
-[22:39:09] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
-[22:39:09] [Server thread/INFO]: [LifeSteal] Enabling LifeSteal v0.6
-[22:39:09] [Server thread/INFO]: [LifeSteal] LifeSteal messages has enabled!
-[22:39:09] [Server thread/INFO]: [LifeSteal] The LifeSteal rate:20
-[22:39:09] [Server thread/INFO]: [LifeSteal] HungerSteal has enabled!
-[22:39:09] [Server thread/INFO]: [LifeSteal] HungerSteal messages has enabled!
-[22:39:09] [Server thread/INFO]: [LifeSteal] The HungerSteal rate:20
-[22:39:09] [Server thread/INFO]: [LifeSteal] Sucessfully starting!
-[22:39:09] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.1.6f
-[22:39:09] [Server thread/INFO]: [Oneblock] 
+[15:43:47] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.4
+[15:43:47] [Server thread/INFO]: [LifeSteal] Enabling LifeSteal v0.6
+[15:43:47] [Server thread/INFO]: [LifeSteal] LifeSteal messages has enabled!
+[15:43:47] [Server thread/INFO]: [LifeSteal] The LifeSteal rate:20
+[15:43:47] [Server thread/INFO]: [LifeSteal] HungerSteal has enabled!
+[15:43:47] [Server thread/INFO]: [LifeSteal] HungerSteal messages has enabled!
+[15:43:47] [Server thread/INFO]: [LifeSteal] The HungerSteal rate:20
+[15:43:47] [Server thread/INFO]: [LifeSteal] Sucessfully starting!
+[15:43:47] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.1.6f
+[15:43:47] [Server thread/INFO]: [Oneblock] 
 ┏━┓····┏━━┓·····┏┓
 ┃┃┣━┳┳━┫┏┓┣┓┏━┳━┫┣┓
 ┃┃┃┃┃┃┻┫┏┓┃┗┫╋┃━┫━┫
 ┗━┻┻━┻━┻━━┻━┻━┻━┻┻┛ by MrMarL
-[22:39:09] [Server thread/INFO]: [TModsServerAddons_Ranks] Enabling TModsServerAddons_Ranks v1.14
-[22:39:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:39:09] [Server thread/INFO]: Done (4.136s)! For help, type "help" or "?"
-[22:39:09] [Server thread/INFO]: Timings Reset
-[22:39:09] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[15:43:48] [Server thread/INFO]: [TModsServerAddons_Ranks] Enabling TModsServerAddons_Ranks v1.14
+[15:43:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:43:48] [Server thread/INFO]: Done (4.627s)! For help, type "help" or "?"
+[15:43:48] [Server thread/INFO]: Timings Reset
+[15:43:48] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[22:39:09] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[15:43:48] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[22:39:09] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[15:43:48] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[22:39:09] [Server thread/INFO]: [Citizens] Loaded 5 NPCs.
-[22:39:17] [Server thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[15:43:48] [Server thread/INFO]: [Citizens] Loaded 5 NPCs.
+[15:46:14] [Thread-8/INFO]: UUID of player Alex_lol is 21753ba7-030e-32ae-9b94-6f8b9c83b235
+[15:46:14] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] Alex_lol [0;33;22mhas joined![m
 
-[22:39:17] [Thread-2/INFO]: Stopping server
-[22:39:17] [Thread-2/INFO]: [TModsServerAddons_Ranks] Disabling TModsServerAddons_Ranks v1.14
+[15:46:15] [Server thread/WARN]: Wrong location for EntityItem['item.tile.cactus'/319, l='world', x=2972.96, y=43.00, z=48.43] in world 'world'!
+[15:46:15] [Server thread/WARN]: Entity is at 2972.964728904673,48.42992988228798 (chunk 185,3) but was stored in chunk 186,3
+[15:46:15] [Server thread/INFO]: Alex_lol[/[0:0:0:0:0:0:0:1]:60170] logged in with entity id 316 at ([world]2980.5, 75.2013, 48.5)
+[15:46:30] [Async Chat Thread - #0/INFO]: [Guest] Alex_lol: h[m
+
+[15:46:45] [Server thread/INFO]: Alex_lol lost connection: Disconnected
+[15:46:45] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mAlex_lol [0;33;22mhas left![m
+
+[15:47:02] [Thread-9/INFO]: UUID of player Alex_lol is 21753ba7-030e-32ae-9b94-6f8b9c83b235
+[15:47:02] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] Alex_lol [0;33;22mhas joined![m
+
+[15:47:02] [Server thread/INFO]: Alex_lol[/[0:0:0:0:0:0:0:1]:38712] logged in with entity id 376 at ([world]2980.5, 75.2013, 48.5)
+[15:47:20] [Async Chat Thread - #0/INFO]: [Guest] Alex_lol: hi DhyeyBG[m
+
+[15:49:44] [Async Chat Thread - #1/INFO]: [Guest] Alex_lol: Dhyey join[m
+
+[15:53:01] [Server thread/INFO]: Alex_lol issued server command: /gamemode c
+[15:53:09] [Async Chat Thread - #2/INFO]: [Guest] Alex_lol: nss[m
+
+[15:53:34] [Server thread/INFO]: Alex_lol lost connection: Disconnected
+[15:53:34] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mAlex_lol [0;33;22mhas left![m
+
+[15:55:04] [Thread-11/INFO]: UUID of player Alex_lol is 21753ba7-030e-32ae-9b94-6f8b9c83b235
+[15:55:04] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] Alex_lol [0;33;22mhas joined![m
+
+[15:55:04] [Server thread/INFO]: Alex_lol[/[0:0:0:0:0:0:0:1]:42566] logged in with entity id 668 at ([world]2980.5, 75.2013, 48.5)
+[15:55:29] [Server thread/INFO]: Alex_lol lost connection: Disconnected
+[15:55:29] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mAlex_lol [0;33;22mhas left![m
+
+[16:00:29] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[16:02:40] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+
+[16:19:30] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[16:21:21] [Thread-13/INFO]: UUID of player Alex_lol is 21753ba7-030e-32ae-9b94-6f8b9c83b235
+[16:21:22] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] Alex_lol [0;33;22mhas joined![m
+
+[16:21:22] [Server thread/INFO]: Alex_lol[/[0:0:0:0:0:0:0:1]:48894] logged in with entity id 728 at ([world]2980.5, 75.2013, 48.5)
+[16:21:58] [Thread-14/INFO]: UUID of player DhyeyBG is 7d674591-43df-3582-a5ce-b6c080fc3a26
+[16:21:58] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] DhyeyBG [0;33;22mhas joined![m
+
+[16:21:58] [Server thread/INFO]: DhyeyBG[/[0:0:0:0:0:0:0:1]:42358] logged in with entity id 789 at ([world]-19.5, 75.2013, 48.5)
+[16:22:01] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wsp[m
+
+[16:22:04] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: hi[m
+
+[16:22:08] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wsp[m
+
+[16:22:10] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: DhyeyBG[m
+
+[16:22:13] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: ye[m
+
+[16:22:21] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 7 Entities![m
+
+[16:22:23] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: come to my ob[m
+
+[16:22:28] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: i made a new lifesteal server im working on it[m
+
+[16:22:35] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: okay[m
+
+[16:22:36] [Server thread/INFO]: DhyeyBG issued server command: /tp DhyeyBG Alex_lol
+[16:22:36] [Server thread/INFO]: [DhyeyBG: Teleported DhyeyBG to Alex_lol]
+[16:22:41] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: nice[m
+
+[16:22:47] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: can u build me a nether portal[m
+
+[16:23:30] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: TF[m
+
+[16:23:33] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: TF[m
+
+[16:23:33] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: TF[m
+
+[16:23:39] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: gold farm[m
+
+[16:23:44] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: xp farm[m
+
+[16:23:51] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wait[m
+
+[16:24:13] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: can i have creative[m
+
+[16:24:41] [Thread-15/INFO]: UUID of player bobpop is 980dd1d6-eb15-3ebf-97cd-a462629ee803
+[16:24:42] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] bobpop [0;33;22mhas joined![m
+
+[16:24:42] [Server thread/INFO]: bobpop[/[0:0:0:0:0:0:0:1]:54088] logged in with entity id 1501 at ([world]1980.5, 75.2013, 48.5)
+[16:24:49] [Server thread/INFO]: DhyeyBG issued server command: /ob listlvl
+[16:25:00] [Server thread/INFO]: DhyeyBG issued server command: /lvl 28
+[16:25:00] [Async Chat Thread - #3/INFO]: [Guest] bobpop: yo[m
+
+[16:25:06] [Server thread/INFO]: DhyeyBG issued server command: /ob lvl 28
+[16:25:10] [Server thread/INFO]: DhyeyBG issued server command: /ob lvl 28
+[16:25:10] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: yo[m
+
+[16:25:12] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: yyoo[m
+
+[16:25:18] [Server thread/INFO]: DhyeyBG issued server command: /tp DhyeyBG Alex_lol
+[16:25:18] [Server thread/INFO]: [DhyeyBG: Teleported DhyeyBG to Alex_lol]
+[16:25:20] [Async Chat Thread - #3/INFO]: [Guest] bobpop: can u tp to u[m
+
+[16:25:21] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: do /ob[m
+
+[16:25:24] [Server thread/INFO]: bobpop issued server command: /ob
+[16:25:35] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: no[m
+
+[16:25:48] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wait[m
+
+[16:25:54] [Async Chat Thread - #3/INFO]: [Guest] bobpop: Yo can u also make a anarchy without tpr[m
+
+[16:25:55] [Async Chat Thread - #3/INFO]: [Guest] bobpop: Yo can u also make a anarchy without tpr[m
+
+[16:26:01] [Server thread/INFO]: bobpop issued server command: /ob
+[16:26:08] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: thanks[m
+
+[16:26:11] [Async Chat Thread - #3/INFO]: [Guest] bobpop: also wheres my rank[m
+
+[16:26:14] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: kill[m
+
+[16:26:16] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: can i have creative[m
+
+[16:26:20] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: kill piglins[m
+
+[16:26:28] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: kill piglins[m
+
+[16:26:29] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: kill piglins[m
+
+[16:26:29] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: kill piglins[m
+
+[16:26:37] [Server thread/INFO]: bobpop issued server command: /tpa DhyeyBG
+[16:26:41] [Server thread/INFO]: DhyeyBG issued server command: /tpaccept
+[16:26:46] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: bobpop do /ob[m
+
+[16:26:50] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: these annoying kids[m
+
+[16:26:54] [Server thread/INFO]: DhyeyBG issued server command: /clear
+[16:26:54] [Server thread/INFO]: [DhyeyBG: Cleared the inventory of DhyeyBG, removing 276 items]
+[16:26:56] [Async Chat Thread - #3/INFO]: [Guest] bobpop: wtf u mean[m
+
+[16:26:59] [Server thread/INFO]: DhyeyBG issued server command: /
+[16:27:09] [Server thread/INFO]: DhyeyBG issued server command: /adminfun DhyeyBG
+[16:27:09] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun DhyeyBG
+[16:27:13] [Server thread/INFO]: DhyeyBG issued server command: /adminfu
+[16:27:14] [Server thread/INFO]: DhyeyBG issued server command: /adminfun
+[16:27:17] [Server thread/INFO]: bobpop issued server command: /sethome
+[16:27:22] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: who are u bobpop[m
+
+[16:27:24] [Server thread/INFO]: bobpop issued server command: /sethome alexlol
+[16:27:29] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod LOL
+[16:27:29] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:27:29] [Server thread/INFO]: [0;32;1m[God] [0;31;1mLOL [m
+
+[16:27:30] [Async Chat Thread - #3/INFO]: [Guest] bobpop: im a anrachy player[m
+
+[16:27:32] [Async Chat Thread - #3/INFO]: [Guest] bobpop: im a anrachy player[m
+
+[16:27:33] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod ws
+[16:27:33] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:27:33] [Server thread/INFO]: [0;32;1m[God] [0;31;1mws [m
+
+[16:27:36] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod wsp
+[16:27:36] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:27:36] [Server thread/INFO]: [0;32;1m[God] [0;31;1mwsp [m
+
+[16:27:36] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: me to[m
+
+[16:27:42] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod Alex_lol im god
+[16:27:42] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:27:42] [Server thread/INFO]: [0;32;1m[God] [0;31;1mAlex_lol im god [m
+
+[16:27:45] [Async Chat Thread - #3/INFO]: [Guest] bobpop: from q13x[m
+
+[16:27:54] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: u are DhyeyBG[m
+
+[16:28:01] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod Alex_lol:im god
+[16:28:01] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:28:01] [Server thread/INFO]: [0;32;1m[God] [0;31;1mAlex_lol:im god [m
+
+[16:28:13] [Async Chat Thread - #3/INFO]: [Guest] bobpop: Dhyey can i get rank to idk what it is[m
+
+[16:28:14] [Async Chat Thread - #3/INFO]: [Guest] bobpop: Dhyey can i get rank to idk what it is[m
+
+[16:28:15] [Server thread/INFO]: Alex_lol issued server command: /tp
+[16:28:22] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod Alex_lol: im am god lol XD
+[16:28:22] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:28:22] [Server thread/INFO]: [0;32;1m[God] [0;31;1mAlex_lol: im am god lol XD [m
+
+[16:28:24] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod Alex_lol: im am god lol XD
+[16:28:24] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:28:24] [Server thread/INFO]: [0;32;1m[God] [0;31;1mAlex_lol: im am god lol XD [m
+
+[16:28:24] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod Alex_lol: im am god lol XD
+[16:28:24] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:28:24] [Server thread/INFO]: [0;32;1m[God] [0;31;1mAlex_lol: im am god lol XD [m
+
+[16:28:25] [Server thread/INFO]: DhyeyBG issued server command: /adminfun bgod Alex_lol: im am god lol XD
+[16:28:25] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun bgod
+[16:28:25] [Server thread/INFO]: [0;32;1m[God] [0;31;1mAlex_lol: im am god lol XD [m
+
+[16:28:30] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: bro stop stealing[m
+
+[16:28:36] [Async Chat Thread - #3/INFO]: [Guest] bobpop: i have nothing[m
+
+[16:28:37] [Server thread/INFO]: DhyeyBG issued server command: /adminfun
+[16:28:40] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: okay[m
+
+[16:28:43] [Server thread/INFO]: DhyeyBG issued server command: /adminfun enchant
+[16:28:43] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun enchant
+[16:28:59] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: bobpop get a ob[m
+
+[16:29:06] [Async Chat Thread - #3/INFO]: [Guest] bobpop: bruh dhyey can i help out with server manage ment[m
+
+[16:29:08] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol im the best
+[16:29:08] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:08] [Server thread/INFO]: [Guest] Alex_lol: im the best[m
+
+[16:29:09] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol im the best
+[16:29:09] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:09] [Server thread/INFO]: [Guest] Alex_lol: im the best[m
+
+[16:29:10] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol im the best
+[16:29:10] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:10] [Server thread/INFO]: [Guest] Alex_lol: im the best[m
+
+[16:29:11] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol im the best
+[16:29:11] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:11] [Server thread/INFO]: [Guest] Alex_lol: im the best[m
+
+[16:29:11] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol im the best
+[16:29:11] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:11] [Server thread/INFO]: [Guest] Alex_lol: im the best[m
+
+[16:29:22] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol im the best
+[16:29:22] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:22] [Server thread/INFO]: [Guest] Alex_lol: im the best[m
+
+[16:29:25] [Server thread/INFO]: bobpop issued server command: /msg DhyeyGB can i help out with server maintaninse
+[16:29:28] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: bro u controling me?[m
+
+[16:29:29] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol u guys know that
+[16:29:29] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:29] [Server thread/INFO]: [Guest] Alex_lol: u guys know that[m
+
+[16:29:29] [Server thread/INFO]: bobpop issued server command: /msg DhyeyGB can i help out with server maintaninse
+[16:29:30] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol u guys know that
+[16:29:30] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:30] [Server thread/INFO]: [Guest] Alex_lol: u guys know that[m
+
+[16:29:30] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol u guys know that
+[16:29:30] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:30] [Server thread/INFO]: [Guest] Alex_lol: u guys know that[m
+
+[16:29:31] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol u guys know that
+[16:29:31] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:31] [Server thread/INFO]: [Guest] Alex_lol: u guys know that[m
+
+[16:29:32] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat Alex_lol u guys know that
+[16:29:32] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:32] [Server thread/INFO]: [Guest] Alex_lol: u guys know that[m
+
+[16:29:35] [Async Chat Thread - #3/INFO]: [Guest] bobpop: what[m
+
+[16:29:46] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat bobpop im cool XD
+[16:29:46] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:46] [Server thread/INFO]: [Guest] bobpop: im cool XD[m
+
+[16:29:47] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat bobpop im cool XD
+[16:29:47] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:47] [Server thread/INFO]: [Guest] bobpop: im cool XD[m
+
+[16:29:47] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat bobpop im cool XD
+[16:29:47] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:47] [Server thread/INFO]: [Guest] bobpop: im cool XD[m
+
+[16:29:48] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat bobpop im cool XD
+[16:29:48] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:48] [Server thread/INFO]: [Guest] bobpop: im cool XD[m
+
+[16:29:48] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat bobpop im cool XD
+[16:29:48] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:48] [Server thread/INFO]: [Guest] bobpop: im cool XD[m
+
+[16:29:49] [Server thread/INFO]: DhyeyBG issued server command: /adminfun playerchat bobpop im cool XD
+[16:29:49] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun playerchat
+[16:29:49] [Server thread/INFO]: [Guest] bobpop: im cool XD[m
+
+[16:29:55] [Async Chat Thread - #3/INFO]: [Guest] bobpop: bruh[m
+
+[16:29:59] [Async Chat Thread - #3/INFO]: [Guest] bobpop: i didnt say that[m
+
+[16:29:59] [Server thread/INFO]: DhyeyBG issued server command: /adminfun
+[16:30:00] [Async Chat Thread - #3/INFO]: [Guest] bobpop: WTF[m
+
+[16:30:03] [Server thread/INFO]: DhyeyBG issued server command: /adminfun 2
+[16:30:03] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun 2
+[16:30:05] [Async Chat Thread - #3/INFO]: [Guest] bobpop: HOW DID U DO THAT[m
+
+[16:30:07] [Server thread/INFO]: DhyeyBG issued server command: /adminfun
+[16:30:13] [Server thread/INFO]: DhyeyBG issued server command: /adminfun page 2
+[16:30:13] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun page
+[16:30:19] [Server thread/INFO]: DhyeyBG issued server command: /adminfun:adminfun
+[16:30:20] [Async Chat Thread - #3/INFO]: [Guest] bobpop: srry[m
+
+[16:30:22] [Server thread/INFO]: DhyeyBG issued server command: /adminfun:adminfun 2
+[16:30:22] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun 2
+[16:30:27] [Server thread/INFO]: DhyeyBG issued server command: /adminfun:adminfun
+[16:30:31] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: bro don't mess with me[m
+
+[16:30:38] [Async Chat Thread - #3/INFO]: [Guest] bobpop: alr lil bruh[m
+
+[16:30:40] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: i will cook you[m
+
+[16:30:49] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:30:54] [Server thread/INFO]: bobpop issued server command: /home
+[16:30:56] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: LOL[m
+
+[16:31:02] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: TF[m
+
+[16:31:02] [Server thread/INFO]: bobpop issued server command: /home alexlol
+[16:31:02] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: bro where my helper rank?[m
+
+[16:31:12] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: i did it idk what happen[m
+
+[16:31:14] [Server thread/INFO]: bobpop drowned
+[16:31:21] [Server thread/INFO]: bobpop issued server command: /home alexlol
+[16:31:21] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: give me creative[m
+
+[16:31:25] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: no[m
+
+[16:31:28] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: why[m
+
+[16:31:32] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: BRUH no[m
+
+[16:31:36] [Async Chat Thread - #3/INFO]: [Guest] Alex_lol: where is spawn[m
+
+[16:31:36] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: nah man[m
+
+[16:31:39] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: idk[m
+
+[16:31:40] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: idk[m
+
+[16:31:42] [Async Chat Thread - #3/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: idk[m
+
+[16:31:46] [Server thread/INFO]: DhyeyBG issued server command: /clear lagg
+[16:31:46] [Server thread/INFO]: [DhyeyBG: That player cannot be found]
+[16:31:51] [Server thread/INFO]: DhyeyBG issued server command: /lagg
+[16:31:54] [Server thread/INFO]: DhyeyBG issued server command: /lagg clear
+[16:32:01] [Server thread/INFO]: bobpop lost connection: Disconnected
+[16:32:01] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mbobpop [0;33;22mhas left![m
+
+[16:32:02] [Server thread/INFO]: DhyeyBG issued server command: /crackshot
+[16:32:11] [Server thread/INFO]: DhyeyBG issued server command: /shot list
+[16:32:15] [Server thread/INFO]: Alex_lol issued server command: /gamemode c
+[16:32:21] [Server thread/INFO]: DhyeyBG issued server command: /shot bazooka
+[16:32:22] [Server thread/INFO]: Alex_lol issued server command: /gamemode creative
+[16:32:29] [Server thread/INFO]: DhyeyBG issued server command: /shot get bazooka
+[16:32:37] [Server thread/INFO]: DhyeyBG issued server command: /shot get bazooka DhyeyBG
+[16:32:38] [Server thread/INFO]: DhyeyBG issued server command: /shot get bazooka DhyeyBG
+[16:32:43] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: DhyeyBG im going to the nether[m
+
+[16:32:49] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: OK[m
+
+[16:33:00] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:33:05] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 0
+[16:33:05] [Server thread/INFO]: [DhyeyBG: Set own game mode to Survival Mode]
+[16:33:14] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: GOD[m
+
+[16:33:15] [Thread-16/INFO]: UUID of player bobpop is 980dd1d6-eb15-3ebf-97cd-a462629ee803
+[16:33:15] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] bobpop [0;33;22mhas joined![m
+
+[16:33:15] [Server thread/INFO]: bobpop[/[0:0:0:0:0:0:0:1]:44660] logged in with entity id 4726 at ([world]1980.5, 75.2013, 48.5)
+[16:33:17] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: GOOD[m
+
+[16:33:19] [Server thread/INFO]: Alex_lol issued server command: /ob
+[16:33:24] [Server thread/INFO]: bobpop issued server command: /home alexlol
+[16:33:30] [Server thread/INFO]: DhyeyBG issued server command: /tp DhyeyBG Alex_lol
+[16:33:30] [Server thread/INFO]: [DhyeyBG: Teleported DhyeyBG to Alex_lol]
+[16:33:40] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: what[m
+
+[16:33:45] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: so much xp[m
+
+[16:33:49] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: my invortoy[m
+
+[16:33:52] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: sorry[m
+
+[16:34:00] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: im brother is playing[m
+
+[16:34:04] [Server thread/INFO]: DhyeyBG issued server command: /clear
+[16:34:04] [Server thread/INFO]: [DhyeyBG: Cleared the inventory of DhyeyBG, removing 978 items]
+[16:34:12] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: he is so annoying[m
+
+[16:34:13] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: nether fortis[m
+
+[16:34:26] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: lets beat the ender dragon[m
+
+[16:34:29] [Async Chat Thread - #4/INFO]: [Guest] bobpop: BRUH THE TPS IS TRASH[m
+
+[16:34:36] [Server thread/INFO]: DhyeyBG lost connection: Disconnected
+[16:34:36] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mDhyeyBG [0;33;22mhas left![m
+
+[16:34:43] [Thread-17/INFO]: UUID of player DhyeyBG is 7d674591-43df-3582-a5ce-b6c080fc3a26
+[16:34:43] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] DhyeyBG [0;33;22mhas joined![m
+
+[16:34:43] [Server thread/INFO]: DhyeyBG[/[0:0:0:0:0:0:0:1]:58806] logged in with entity id 5089 at ([world_nether]370.57560013506054, 70.0, -1.8142105822340846)
+[16:34:53] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 1
+[16:34:53] [Server thread/INFO]: [DhyeyBG: Set own game mode to Creative Mode]
+[16:35:00] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: im gonna put hoppers here[m
+
+[16:35:07] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: dhyey look down[m
+
+[16:35:17] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: ik[m
+
+[16:35:18] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: ik[m
+
+[16:35:18] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: ik[m
+
+[16:35:23] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: i found blaze[m
+
+[16:35:28] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: nice[m
+
+[16:35:30] [Async Chat Thread - #4/INFO]: [Guest] Alex_lol: bye[m
+
+[16:35:31] [Server thread/INFO]: Alex_lol lost connection: Disconnected
+[16:35:31] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mAlex_lol [0;33;22mhas left![m
+
+[16:35:42] [Async Chat Thread - #4/INFO]: [Guest] bobpop: dhyeygb[m
+
+[16:35:47] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: yes[m
+
+[16:35:53] [Async Chat Thread - #4/INFO]: [Guest] bobpop: was i one of the first people on the server[m
+
+[16:35:57] [Async Chat Thread - #4/INFO]: [Guest] bobpop: apart form u[m
+
+[16:36:01] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: no[m
+
+[16:36:05] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: no u not[m
+
+[16:36:14] [Async Chat Thread - #4/INFO]: [Guest] bobpop: but i still was one of them[m
+
+[16:36:17] [Async Chat Thread - #4/INFO]: [Guest] bobpop: right[m
+
+[16:36:30] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: um..... ya u are my 3 meber[m
+
+[16:36:46] [Async Chat Thread - #4/INFO]: [Guest] bobpop: alr can i get POTATO+++ rank[m
+
+[16:36:51] [Async Chat Thread - #4/INFO]: [Guest] bobpop: just wondering[m
+
+[16:36:54] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: BRUH[m
+
+[16:36:56] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: OK[m
+
+[16:36:59] [Async Chat Thread - #4/INFO]: [Guest] bobpop: ye[m
+
+[16:37:03] [Async Chat Thread - #4/INFO]: [Guest] bobpop: Yey[m
+
+[16:37:06] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: K[m
+
+[16:37:14] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: idk if it will work[m
+
+[16:37:30] [Server thread/INFO]: DhyeyBG issued server command: /tp DhyeyBG bobpop
+[16:37:30] [Server thread/INFO]: [DhyeyBG: Teleported DhyeyBG to bobpop]
+[16:37:36] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: Bruh do /ob[m
+
+[16:37:38] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: Bruh do /ob[m
+
+[16:37:38] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: Bruh do /ob[m
+
+[16:37:39] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: Bruh do /ob[m
+
+[16:37:40] [Server thread/INFO]: bobpop issued server command: /ob
+[16:37:45] [Server thread/INFO]: DhyeyBG issued server command: /tp DhyeyBG bobpop
+[16:37:45] [Server thread/INFO]: [DhyeyBG: Teleported DhyeyBG to bobpop]
+[16:37:50] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: your one block[m
+
+[16:38:35] [Async Chat Thread - #4/INFO]: [Guest] bobpop: what u need to do[m
+
+[16:38:39] [Async Chat Thread - #4/INFO]: [Guest] bobpop: is buy a domain[m
+
+[16:38:42] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: is one block[m
+
+[16:38:43] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: is one block[m
+
+[16:38:44] [Async Chat Thread - #4/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: is one block[m
+
+[16:40:28] [Async Chat Thread - #5/INFO]: [Guest] bobpop: could i get a ender chest[m
+
+[16:40:54] [Async Chat Thread - #5/INFO]: [Guest] bobpop: let me guess u made this server from ismaeltechs tutorial[m
+
+[16:41:05] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: nah why???[m
+
+[16:41:08] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: who is he??[m
+
+[16:41:16] [Async Chat Thread - #5/INFO]: [Guest] bobpop: ik u got this from him[m
+
+[16:41:17] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: i code all of this[m
+
+[16:41:24] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: no i not bruh[m
+
+[16:41:26] [Async Chat Thread - #5/INFO]: [Guest] bobpop: im his frikin dev[m
+
+[16:41:32] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: KK[m
+
+[16:41:35] [Server thread/INFO]: DhyeyBG has just earned the achievement [Getting Wood]
+[16:41:43] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: gold farm[m
+
+[16:42:00] [Server thread/INFO]: DhyeyBG issued server command: /clear
+[16:42:00] [Server thread/INFO]: [DhyeyBG: Cleared the inventory of DhyeyBG, removing 141 items]
+[16:42:06] [Server thread/INFO]: DhyeyBG issued server command: /adminfun enchant
+[16:42:06] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun enchant
+[16:42:08] [Async Chat Thread - #5/INFO]: [Guest] bobpop: could i get a g set[m
+
+[16:42:10] [Server thread/INFO]: bobpop has just earned the achievement [Taking Inventory]
+[16:42:23] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:42:29] [Server thread/INFO]: DhyeyBG issued server command: /adminfun enchant
+[16:42:29] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun enchant
+[16:42:36] [Async Chat Thread - #5/INFO]: [Guest] bobpop: Ay dis server aint half bad[m
+
+[16:42:39] [Async Chat Thread - #5/INFO]: [Guest] bobpop: :)[m
+
+[16:42:48] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:42:57] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: came here[m
+
+[16:43:26] [Server thread/INFO]: DhyeyBG issued server command: /tpr
+[16:43:29] [Server thread/INFO]: DhyeyBG issued server command: /rtp
+[16:43:35] [Async Chat Thread - #5/INFO]: [Guest] bobpop: by the way i need some enchated gaps[m
+
+[16:43:46] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: BRUH[m
+
+[16:43:54] [Async Chat Thread - #5/INFO]: [Guest] bobpop: ye im griedy[m
+
+[16:43:57] [Async Chat Thread - #5/INFO]: [Guest] bobpop: greedy[m
+
+[16:44:11] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: i'll cear your e-chest if u want??[m
+
+[16:44:19] [Async Chat Thread - #5/INFO]: [Guest] bobpop: NO PLS[m
+
+[16:44:27] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: OK then no[m
+
+[16:44:31] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[16:44:54] [Server thread/INFO]: DhyeyBG issued server command: //grass
+[16:45:00] [Server thread/INFO]: DhyeyBG issued server command: //set grass
+[16:45:04] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:45:07] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: LAG[m
+
+[16:45:09] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: srry[m
+
+[16:45:16] [Async Chat Thread - #5/INFO]: [Guest] bobpop: DAM[m
+
+[16:45:17] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: get your armo[m
+
+[16:45:18] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: get your armor[m
+
+[16:45:23] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: we pvp[m
+
+[16:45:24] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: we pvping[m
+
+[16:45:26] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: we pvping[m
+
+[16:45:26] [Async Chat Thread - #5/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: we pvping[m
+
+[16:45:37] [Async Chat Thread - #5/INFO]: [Guest] bobpop: no admin abusing[m
+
+[16:45:41] [Async Chat Thread - #5/INFO]: [Guest] bobpop: though[m
+
+[16:46:56] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 11 Entities![m
+
+[16:47:10] [Async Chat Thread - #6/INFO]: [Guest] bobpop: 1v1[m
+
+[16:47:31] [Async Chat Thread - #6/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: came here[m
+
+[16:47:53] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 0
+[16:47:53] [Server thread/INFO]: [DhyeyBG: Set own game mode to Survival Mode]
+[16:47:57] [Async Chat Thread - #6/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: pot up[m
+
+[16:48:04] [Async Chat Thread - #6/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: 3[m
+
+[16:48:07] [Async Chat Thread - #6/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: 2[m
+
+[16:48:08] [Async Chat Thread - #6/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: 1[m
+
+[16:48:10] [Async Chat Thread - #6/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: goooooooooooooooooooo[m
+
+[16:48:25] [Server thread/WARN]: DhyeyBG moved wrongly!
+[16:49:11] [Async Chat Thread - #7/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wait[m
+
+[16:49:12] [Async Chat Thread - #7/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wait[m
+
+[16:49:12] [Async Chat Thread - #7/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wait[m
+
+[16:49:13] [Async Chat Thread - #7/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wait[m
+
+[16:49:19] [Async Chat Thread - #7/INFO]: [Guest] bobpop: alr[m
+
+[16:49:22] [Server thread/INFO]: DhyeyBG issued server command: /weather clear
+[16:49:22] [Server thread/INFO]: [DhyeyBG: Changing to clear weather]
+[16:49:25] [Async Chat Thread - #7/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: OK[m
+
+[16:49:27] [Server thread/WARN]: DhyeyBG moved wrongly!
+[16:49:31] [Async Chat Thread - #7/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: no flying[m
+
+[16:49:38] [Async Chat Thread - #7/INFO]: [Guest] bobpop: alr[m
+
+[16:49:48] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 0
+[16:49:48] [Server thread/INFO]: [DhyeyBG: Set own game mode to Survival Mode]
+[16:49:50] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 1
+[16:49:50] [Server thread/INFO]: [DhyeyBG: Set own game mode to Creative Mode]
+[16:50:16] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 0
+[16:50:16] [Server thread/INFO]: [DhyeyBG: Set own game mode to Survival Mode]
+[16:50:23] [Async Chat Thread - #7/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: OKAY came one[m
+
+[16:50:31] [Async Chat Thread - #7/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: came[m
+
+[16:51:43] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wait[m
+
+[16:51:48] [Async Chat Thread - #8/INFO]: [Guest] bobpop: alr[m
+
+[16:51:51] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 1
+[16:51:51] [Server thread/INFO]: [DhyeyBG: Set own game mode to Creative Mode]
+[16:51:57] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: cma elook here[m
+
+[16:52:03] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: TF[m
+
+[16:52:26] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 0
+[16:52:26] [Server thread/INFO]: [DhyeyBG: Set own game mode to Survival Mode]
+[16:52:29] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: srry[m
+
+[16:52:31] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: srr1[m
+
+[16:52:36] [Server thread/INFO]: DhyeyBG issued server command: /gamemode 1
+[16:52:36] [Server thread/INFO]: [DhyeyBG: Set own game mode to Creative Mode]
+[16:52:47] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: go in nether[m
+
+[16:53:04] [Server thread/INFO]: DhyeyBG issued server command: /tp bobpop DhyeyBG
+[16:53:04] [Server thread/INFO]: [DhyeyBG: Teleported bobpop to DhyeyBG]
+[16:53:11] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: go nether[m
+
+[16:53:17] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: go nether[m
+
+[16:53:21] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: now[m
+
+[16:53:25] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: goo to the[m
+
+[16:53:30] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:53:31] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:53:32] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:53:32] [Async Chat Thread - #8/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[16:55:15] [Async Chat Thread - #9/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: move[m
+
+[16:55:39] [Async Chat Thread - #9/INFO]: [Guest] bobpop: im kinda borde[m
+
+[16:55:42] [Async Chat Thread - #9/INFO]: [Guest] bobpop: borded[m
+
+[16:55:44] [Async Chat Thread - #9/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: BRUH[m
+
+[16:55:57] [Async Chat Thread - #9/INFO]: [Guest] bobpop: i might go to the q13x[m
+
+[16:56:04] [Async Chat Thread - #9/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wait what about lifesteal[m
+
+[16:56:10] [Async Chat Thread - #9/INFO]: [Guest] bobpop: u got lifesteal[m
+
+[16:56:13] [Async Chat Thread - #9/INFO]: [Guest] bobpop: ??????[m
+
+[16:56:16] [Async Chat Thread - #9/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: yes[m
+
+[16:56:17] [Server thread/INFO]: bobpop issued server command: /menu
+[16:56:22] [Async Chat Thread - #9/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: let me turn it on[m
+
+[16:56:24] [Async Chat Thread - #9/INFO]: [Guest] bobpop: how do i play[m
+
+[16:56:37] [Async Chat Thread - #9/INFO]: [Guest] bobpop: ALSO WTF y u copy lapata smp[m
+
+[16:56:44] [Async Chat Thread - #9/INFO]: [Guest] bobpop: ik its areal smp[m
+
+[16:57:01] [Server thread/INFO]: bobpop issued server command: /ban
+[16:57:08] [Server thread/INFO]: bobpop issued server command: /help
+[16:57:15] [Server thread/INFO]: bobpop issued server command: /adminfun
+[16:57:21] [Server thread/INFO]: bobpop issued server command: /bukkit
+[16:57:31] [Server thread/INFO]: bobpop issued server command: /
+[16:57:32] [Server thread/INFO]: bobpop lost connection: Disconnected
+[16:57:32] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mbobpop [0;33;22mhas left![m
+
+[16:58:18] [Thread-19/INFO]: UUID of player bobpop is 980dd1d6-eb15-3ebf-97cd-a462629ee803
+[16:58:19] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] bobpop [0;33;22mhas joined![m
+
+[16:58:19] [Server thread/INFO]: bobpop[/[0:0:0:0:0:0:0:1]:50036] logged in with entity id 13393 at ([world_nether]298.9451401038741, 64.875, -26.3734759587867)
+[16:58:24] [Async Chat Thread - #10/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: ip here[m
+
+[16:58:27] [Async Chat Thread - #10/INFO]: [Guest] bobpop: yo[m
+
+[16:58:30] [Async Chat Thread - #10/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wss://turbo-robot-pjjw75pwgv9vhrrpv-8081.app.github.dev/[m
+
+[16:58:31] [Async Chat Thread - #10/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wss://turbo-robot-pjjw75pwgv9vhrrpv-8081.app.github.dev/[m
+
+[16:58:32] [Async Chat Thread - #10/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: wss://turbo-robot-pjjw75pwgv9vhrrpv-8081.app.github.dev/[m
+
+[16:58:36] [Async Chat Thread - #10/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: ip to the server[m
+
+[16:58:38] [Async Chat Thread - #10/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: click it[m
+
+[16:58:42] [Async Chat Thread - #10/INFO]: [Guest] bobpop: alr[m
+
+[16:58:43] [Server thread/INFO]: bobpop lost connection: Disconnected
+[16:58:43] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mbobpop [0;33;22mhas left![m
+
+[16:58:47] [Server thread/INFO]: DhyeyBG lost connection: Disconnected
+[16:58:47] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mDhyeyBG [0;33;22mhas left![m
+
+[16:59:24] [Thread-20/INFO]: UUID of player bobpop is 980dd1d6-eb15-3ebf-97cd-a462629ee803
+[16:59:24] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] bobpop [0;33;22mhas joined![m
+
+[16:59:24] [Server thread/INFO]: bobpop[/[0:0:0:0:0:0:0:1]:33952] logged in with entity id 13420 at ([world_nether]294.27843792778935, 68.0, 1.1383429129927505)
+[16:59:31] [Server thread/INFO]: bobpop lost connection: Disconnected
+[16:59:31] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mbobpop [0;33;22mhas left![m
+
+[17:02:52] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[17:05:24] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+
+[17:11:16] [Thread-21/INFO]: UUID of player Alex_lol is 21753ba7-030e-32ae-9b94-6f8b9c83b235
+[17:11:16] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] Alex_lol [0;33;22mhas joined![m
+
+[17:11:16] [Server thread/INFO]: Alex_lol[/[0:0:0:0:0:0:0:1]:49534] logged in with entity id 13454 at ([world_nether]368.4745050131835, 70.0, -3.835770501433263)
+[17:13:43] [Thread-22/INFO]: UUID of player DhyeyBG is 7d674591-43df-3582-a5ce-b6c080fc3a26
+[17:13:44] [Server thread/INFO]: [0;33;22m[[0;32;1m+[0;33;22m] DhyeyBG [0;33;22mhas joined![m
+
+[17:13:44] [Server thread/INFO]: DhyeyBG[/[0:0:0:0:0:0:0:1]:33978] logged in with entity id 13608 at ([world_nether]370.77701331465806, 70.0, 1.3106108555626081)
+[17:13:54] [Server thread/INFO]: DhyeyBG issued server command: /tp DhyeyBG Alex_lol
+[17:13:54] [Server thread/INFO]: [DhyeyBG: Teleported DhyeyBG to Alex_lol]
+[17:14:01] [Async Chat Thread - #11/INFO]: [Guest] Alex_lol: hello[m
+
+[17:14:03] [Server thread/INFO]: DhyeyBG issued server command: /clear
+[17:14:03] [Server thread/INFO]: [DhyeyBG: Cleared the inventory of DhyeyBG, removing 484 items]
+[17:14:06] [Async Chat Thread - #11/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: hello[m
+
+[17:14:18] [Async Chat Thread - #11/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: i making lifesteal[m
+
+[17:14:23] [Async Chat Thread - #11/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: half done[m
+
+[17:14:28] [Async Chat Thread - #11/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: some bugs[m
+
+[17:14:29] [Async Chat Thread - #11/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: some bugs[m
+
+[17:14:30] [Async Chat Thread - #11/INFO]: [Guest] Alex_lol: imy is not working[m
+
+[17:14:36] [Async Chat Thread - #11/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: what??[m
+
+[17:14:40] [Async Chat Thread - #11/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: not working??[m
+
+[17:14:58] [Async Chat Thread - #11/INFO]: [Guest] Alex_lol: my friend from arch deleted the code[m
+
+[17:15:16] [Async Chat Thread - #11/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: WHAT??[m
+
+[17:16:28] [Server thread/INFO]: DhyeyBG issued server command: /tp DhyeyBG Alex_lol
+[17:16:28] [Server thread/INFO]: [DhyeyBG: Teleported DhyeyBG to Alex_lol]
+[17:16:47] [Async Chat Thread - #12/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: not follow me[m
+
+[17:17:00] [Server thread/ERROR]: Could not pass event BlockBreakEvent to CrackShot v0.93
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.breakBlock(PlayerInteractManager.java:286) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerInteractManager.a(PlayerInteractManager.java:121) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:626) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:40) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInBlockDig.a(SourceFile:10) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "ownerOre" is null
+	at com.shampaggon.crackshot.CSDirector.breakC4(CSDirector.java:3693) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 18 more
+[17:17:10] [Server thread/INFO]: DhyeyBG issued server command: /tp Alex_lol DhyeyBG
+[17:17:10] [Server thread/INFO]: [DhyeyBG: Teleported Alex_lol to DhyeyBG]
+[17:17:15] [Async Chat Thread - #12/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[17:17:20] [Async Chat Thread - #12/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: BRUH[m
+
+[17:17:27] [Async Chat Thread - #12/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: u gonna die[m
+
+[17:17:46] [Server thread/INFO]: DhyeyBG issued server command: /adminfun enchant
+[17:17:46] [Server thread/INFO]: [AdminFun] Player DhyeyBG issued the command: adminfun enchant
+[17:17:51] [Async Chat Thread - #12/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[17:17:55] [Async Chat Thread - #12/INFO]: [0;34;22m[OWNER_OF_LAPATA_SMP] DhyeyBG[0;37;1m: XD[m
+
+[17:18:09] [Server thread/INFO]: Alex_lol lost connection: Disconnected
+[17:18:09] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mAlex_lol [0;33;22mhas left![m
+
+[17:19:24] [Server thread/INFO]: DhyeyBG issued server command: /clear
+[17:19:24] [Server thread/INFO]: [DhyeyBG: Cleared the inventory of DhyeyBG, removing 95 items]
+[17:19:28] [Server thread/INFO]: DhyeyBG lost connection: Disconnected
+[17:19:28] [Server thread/INFO]: [0;33;22m[[0;31;1m-[0;33;22m] [0;31;1mDhyeyBG [0;33;22mhas left![m
+
+[17:22:31] [Server thread/INFO]: [0;33;22m[0;31;22m[ClearLag] [0;31;1mWarning Ground items will be removed in one minute![m
+
+[17:25:03] [Server thread/INFO]: [0;33;22m[0;33;22m[ClearLag] [0;32;1mRemoved 0 Entities![m
+
